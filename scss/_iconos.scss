@@ -1,0 +1,23 @@
+/* ICONOS */
+#iconos {
+	padding: 0px 50px;
+	background: rgba(77,77,92, 0.6);
+}
+.contenido-icono {
+	padding: 50px 50px 0px 50px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+}
+#contenido-icono {
+	div {
+		flex: 1;
+		margin: 20px 0px;
+		border-right: 2px solid rgba(22, 22, 22, 0.2);
+	}
+}
+.boton-iconos {
+	text-align: center;
+	padding-bottom: 50px;
+}

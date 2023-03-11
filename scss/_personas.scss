@@ -1,0 +1,46 @@
+/* PERSONAS */
+#personas {
+	padding: 50px 50px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+
+	img {
+		border-radius: 100%;
+	}
+
+	div {
+		padding: 30px 30px;
+
+		h2 {
+			color: $color_4;
+			font-size: 20px;
+			margin: 15px 0px;
+		}
+
+		p {
+			color: $color_5;
+			font-size: 18px;
+		}
+	}
+}
+
+@mixin botones {
+	display: inline-block;
+	text-decoration: none;
+	color: $color_6;
+	padding: 10px 30px;
+	border: 3px solid #3ACFC9;
+	border-radius: 30px;
+	margin-top: 15px;
+	transition: all 0.4s;
+}
+
+.boton-saber-mas {
+	@include botones;
+
+	&:hover {
+		background: #3ACFC9;
+		color: $color_2;
+	}
+}

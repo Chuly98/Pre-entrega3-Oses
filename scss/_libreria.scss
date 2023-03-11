@@ -1,0 +1,26 @@
+/* LIBRERIA */
+.libreria-div {
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    background: #96C7D3;
+
+    h2 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+.tienda {
+    img {
+        margin-top: 25px;
+    }
+}
+
+.imagenes:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.2s;
+}

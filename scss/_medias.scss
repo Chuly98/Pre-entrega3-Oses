@@ -1,0 +1,18 @@
+/* RESPONSIVE */
+@media(max-width: 768px) {
+    #personas {
+        flex-direction: column;
+    }
+
+    .contenido-icono {
+        flex-direction: column;
+    }
+
+    .datos-formulario {
+        flex-direction: column;
+    }
+
+    #anuncios {
+        flex-direction: column;
+    }
+}
