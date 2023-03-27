@@ -212,7 +212,7 @@ form textarea::placeholder {
   transition: all 0.4s;
 }
 .boton-formulario .boton-saber-mas:hover {
-  background: #9ce0de;
+  background: #fffdfd;
 }
 
 /* CONTACTO */
